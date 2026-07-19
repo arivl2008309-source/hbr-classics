@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>哈佛商业评论 · 经典文章收藏</title>
+  <meta name="description" content="精选哈佛商业评论（HBR）经典文章，原创中文摘要 + 官方外链，覆盖战略、领导力、营销、创新等领域。" />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="HBR 经典文章收藏" />
+  <meta property="og:title" content="哈佛商业评论 · 经典文章收藏" />
+  <meta property="og:description" content="跨越半个多世纪的 HBR 必读经典，每篇配原创中文摘要与外链原文。双周 AI 自动策展更新。" />
+  <meta property="og:image" content="https://ac1232373aa64253bb48bf611c06d689.app.codebuddy.work/og-cover.png" />
+  <meta property="og:url" content="https://ac1232373aa64253bb48bf611c06d689.app.codebuddy.work" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="哈佛商业评论 · 经典文章收藏" />
+  <meta name="twitter:description" content="跨越半个多世纪的 HBR 必读经典，每篇配原创中文摘要与外链原文。" />
+  <meta name="twitter:image" content="https://ac1232373aa64253bb48bf611c06d689.app.codebuddy.work/og-cover.png" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <button id="theme-toggle" class="theme-toggle" aria-label="切换主题">深色</button>
+  <button id="back-top" class="back-top" aria-label="返回顶部" title="返回顶部">↑</button>
+  <!-- 顶部 -->
+  <header class="hero">
+    <span class="kicker">Harvard Business Review</span>
+    <h1>哈佛商业评论 · <span class="red">经典文章</span>收藏</h1>
+    <p class="sub">
+      收录跨越半个多世纪的 HBR 必读经典。每篇附「原创中文摘要」提炼核心观点，
+      并外链至 HBR 官方原文，便于深度阅读。
+    </p>
+    <div class="stats">
+      <div class="stat">
+        <span class="num" id="stat-total">0</span>
+        <span class="lbl">经典文章</span>
+      </div>
+      <div class="stat">
+        <span class="num" id="stat-cat">0</span>
+        <span class="lbl">主题分类</span>
+      </div>
+      <div class="stat">
+        <span class="num">1960–2026</span>
+        <span class="lbl">跨越年代</span>
+      </div>
+      <div class="stat">
+        <span class="num" id="stat-updated">—</span>
+        <span class="lbl">最后更新</span>
+      </div>
+    </div>
+    <div style="text-align:center; margin-top: 18px;">
+      <button id="daily-pick" class="daily-btn">每日一文 · 随机推荐</button>
+    </div>
+    <div class="auto-update">
+      <span class="live-dot"></span>
+      <span>双周 AI 自动策展 · 最新篇目标注</span><span class="new">新</span>
+      <button id="check-update" class="update-btn" title="检查并加载最新文章">检查更新</button>
+    </div>
+  </header>
+
+  <!-- 控制栏 -->
+  <div class="controls">
+    <div class="search-row">
+      <div class="search-box">
+        <svg viewBox="0 0 24 24" fill="none" stroke-width="2"
+          stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="11" cy="11" r="8"></circle>
+          <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+        </svg>
+        <input id="search" type="text" placeholder="搜索标题、作者、关键词或标签…" />
+      </div>
+      <select id="sort" class="sort-select" aria-label="排序方式">
+        <option value="year-desc">年份（新 → 旧）</option>
+        <option value="year-asc">年份（旧 → 新）</option>
+        <option value="title">标题（A → Z）</option>
+      </select>
+    </div>
+    <div class="chips" id="chips"></div>
+  </div>
+
+  <!-- 卡片网格 -->
+  <main class="grid" id="grid"></main>
+
+  <!-- 页脚 -->
+  <footer class="footer">
+    <p>
+      本页为个人学习用途的<strong>精选导航</strong>：文章摘要由本站原创撰写，仅提炼观点、
+      不构成对原文的复制；所有「阅读原文」链接均指向
+      <a href="https://hbr.org" target="_blank" rel="noopener noreferrer">哈佛商业评论（HBR）官方网站</a>，
+      部分原文需订阅。版权归 HBR / Harvard Business School Publishing 所有。此外，本站书单由 AI 定期策展更新，新增篇目会标注「新」角标。
+    </p>
+    <div class="footer-cta">
+      <div class="cta-title">关注公众号，每双周一份 AI 精选解读</div>
+      <p>微信搜索 <strong>「你的公众号名称」</strong>，把 HBR 经典读进日常。</p>
+    </div>
+  </footer>
+
+  <!-- 详情弹窗 -->
+  <div class="modal-overlay" id="modal-overlay">
+    <div class="modal" id="modal" role="dialog" aria-modal="true"></div>
+  </div>
+
+  <!-- 操作提示 -->
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
