@@ -13,28 +13,13 @@
  */
 
 const META = {
-  lastUpdated: "2026-07-12",
+  lastUpdated: "2026-08-06",
   newIds: [
-    "ai-people-using-2026",
-    "ai-work-intensifies",
-    "ai-skills-erosion",
-    "ai-agents-like-team-members",
-    "ai-agent-onboarding",
-    "llm-rhetorical-tricks",
-    "ai-brain-fry",
-    "best-ai-users",
-    "ai-roi-factors",
-    "ai-workslop-productivity",
-    "ai-personality-problem",
-    "ai-advice-questioning",
-    "teach-ai-decisions",
-    "ai-pm-skills-adoption",
-    "ai-middle-managers-overload",
-    "managers-ai-productivity-boom",
-    "ai-performance-metrics",
-    "agentic-ai-startups",
-    "ai-outsourced-risk",
-    "ai-augmentation-vs-automation"
+    "why-design-thinking-works",
+    "hard-truth-innovative-cultures",
+    "leaders-guide-corporate-culture",
+    "begin-with-trust",
+    "age-of-continuous-connection"
   ]
 };
 
@@ -876,6 +861,129 @@ const ARTICLES = [
     tags: ["增强vs替代", "长期主义", "人机协作"],
     summary: "自动化承诺更快回报，却可能让企业走向衰落；选择「增强人类」而非「替代人类」的公司，长期更可能胜出。",
     detail: "研究指出，纯自动化常牺牲组织的适应力与创新能力，而增强模式保留并放大人类判断。对领导者的建议是：在 AI 战略里明确「人是被放大还是被取代」，因为这条路会决定企业长期的竞争力走向。"
+  },
+
+  /* ===================== 补充经典（2011–2016） ===================== */
+
+  {
+    id: "creating-shared-value",
+    url: "https://hbr.org/2011/01/the-big-idea-creating-shared-value",
+    zhTitle: "创造共享价值",
+    enTitle: "Creating Shared Value",
+    author: "Michael E. Porter & Mark R. Kramer",
+    year: 2011,
+    category: "ESG与可持续",
+    tags: ["共享价值", "企业社会责任", "竞争力"],
+    summary: "Porter 与 Kramer 提出「共享价值（CSV）」：企业不应把社会责任当作与利润对立的成本或公关，而应把「解决社会问题」本身设计成创造经济价值的方式，让商业成功与社会进步彼此强化。",
+    detail: "两位作者批评传统 CSR 把社会与商业割裂，导致慈善式投入难以持续。共享价值有三条路径：重新定义产品与市场以满足未被满足的社会需求、重塑价值链的生产率（如能耗、供应链、员工健康）、以及在企业所在地培育支持性的产业集群。核心命题是——把社会痛点当作下一轮增长与创新的源头，而非负担。"
+  },
+  {
+    id: "netflix-reinvented-hr",
+    url: "https://hbr.org/2014/01/how-netflix-reinvented-hr",
+    zhTitle: "Netflix 如何重塑人力资源",
+    enTitle: "How Netflix Reinvented HR",
+    author: "Patty McCord",
+    year: 2014,
+    category: "人才管理",
+    tags: ["企业文化", "自由与责任", "人才密度"],
+    summary: "前 Netflix 首席人才官 McCord 分享其广为流传的文化理念：信任人而非依赖制度，奖励坦诚，抛开标准剧本。招聘并留住「成年人」，用高绩效与高自由度替代繁琐的考勤与审批。",
+    detail: "文章基于那份被疯传的 127 页文化 PPT，提出几条反直觉原则：把员工当能自我负责的成年人，取消休假与报销的僵硬规定；只保留「充分知情的判断」而非层层审批；坦诚给出持续反馈，取代形式化年度评估；用「保留测试」（是否会为留住此人而努力挽留）动态管理团队。核心是打造高人才密度与自由—责任并存的文化。"
+  },
+  {
+    id: "reinventing-performance-management",
+    url: "https://hbr.org/2015/04/reinventing-performance-management",
+    zhTitle: "重新发明绩效管理",
+    enTitle: "Reinventing Performance Management",
+    author: "Marcus Buckingham & Ashley Goodall",
+    year: 2015,
+    category: "绩效管理",
+    tags: ["绩效评估", "反馈", "组织实践"],
+    summary: "Buckingham 与 Goodall 以德勤的改革为例，说明冗长的年度评级与强制排名既耗费巨量工时，又无法真正驱动改进。他们主张用高频、面向未来的轻量反馈取代一年一次的回顾式打分。",
+    detail: "文章披露德勤重新设计绩效系统的实践：放弃统一的年度评级与级联目标，改为团队负责人每周与成员「签到（check-in）」，聚焦当下工作与下一步行动；并用四个针对「评价者自身意向」的问题来采集可靠数据，规避传统评分中的评价者特质偏差。目标是把绩效管理从「审判过去」转为「点燃未来表现」。"
+  },
+  {
+    id: "collaborative-overload",
+    url: "https://hbr.org/2016/01/collaborative-overload",
+    zhTitle: "协作过载",
+    enTitle: "Collaborative Overload",
+    author: "Rob Cross, Reb Rebele & Adam Grant",
+    year: 2016,
+    category: "组织管理",
+    tags: ["协作", "生产力", "组织网络"],
+    summary: "协作被奉为组织成功的关键，但作者的数据显示，管理者与员工花在协作上的时间二十年间激增五成以上。过度协作反而耗尽员工精力、拖垮生产力，且负担高度集中在少数「乐于助人」的人身上。",
+    detail: "作者用组织网络分析发现，约 20%–35% 的增值协作只来自 3%–5% 的人，他们逐渐被求助淹没，成为瓶颈与流失风险。破解之道有三：识别并重新分配这些「协作枢纽」的负荷、把稀缺的合作时间当作资源来管理、并调整激励与文化，让「贡献信息与资源」而非「无止境开会」被真正认可。"
+  },
+  {
+    id: "why-diversity-programs-fail",
+    url: "https://hbr.org/2016/07/why-diversity-programs-fail",
+    zhTitle: "多元化项目为何失败",
+    enTitle: "Why Diversity Programs Fail",
+    author: "Frank Dobbin & Alexandra Kalev",
+    year: 2016,
+    category: "人才管理",
+    tags: ["多元化", "组织变革", "偏见"],
+    summary: "Dobbin 与 Kalev 用三十余年数据指出：强制式的多元化培训、招聘测试与申诉流程等「控制型」手段往往适得其反，因为它们激起管理者的抵触，反而未能改善多样性。",
+    detail: "研究表明，试图用规则强迫人们消除偏见通常失败；真正见效的是「激发参与、增加接触、强化问责」的做法——例如自愿而非强制的培训、跨群体的导师制与轮岗、招聘的定向拓展，以及设立多元化专员使责任可见。核心洞见是：让管理者成为变革的参与者而非被管制对象，改变才会发生。"
+  },
+  {
+    id: "why-design-thinking-works",
+    url: "https://hbr.org/2018/09/why-design-thinking-works",
+    zhTitle: "设计思维为何奏效",
+    enTitle: "Why Design Thinking Works",
+    author: "Jeanne Liedtka",
+    year: 2018,
+    category: "创新",
+    tags: ["设计思维", "认知偏差", "原型验证"],
+    summary: "设计思维常被当成创意工具箱，Liedtka 却认为它真正的价值是一种「社会技术」：用结构化流程抵消人天生的认知偏差与团队内耗，把创新从灵光乍现变成可复制的组织能力。",
+    detail: "作者基于对多家机构创新项目的长期追踪指出，阻碍创新的往往不是缺少点子，而是人的偏见与协作失灵——管理者容易困在既有认知里，也不愿当众承认判断失误。设计思维用「沉浸式用户观察—多元共创—快速原型—小步验证」的节奏，强制团队先扩散再收敛，把主观争论转化为可检验的假设。原型与实地试验大幅降低了否定自己的心理成本，使失败变成低代价的学习。最终产出的不只是更好的方案，还有一支愿意持续试错的团队。"
+  },
+  {
+    id: "hard-truth-innovative-cultures",
+    url: "https://hbr.org/2019/01/the-hard-truth-about-innovative-cultures",
+    zhTitle: "创新文化的残酷真相",
+    enTitle: "The Hard Truth About Innovative Cultures",
+    author: "Gary P. Pisano",
+    year: 2019,
+    category: "创新",
+    tags: ["创新文化", "组织纪律", "领导取舍"],
+    summary: "人人向往的创新文化其实有两副面孔：容忍失败、鼓励试验、扁平自由的一面广受欢迎，与之配套的严苛纪律却常被忽略。只学轻松的那一半，创新文化必然落空。",
+    detail: "Pisano 把创新文化拆成几组看似矛盾的搭配：容忍失败但绝不容忍平庸，乐于试验但要求高度严谨，心理安全但敢于直言碰撞，充分协作但个人担责，组织扁平但领导强势。每一组里宽松的一面都必须由刚性的一面兜底，否则就会滑向散漫。真正困难的不是宣布这些价值观，而是长期承受它们带来的不适——淘汰不胜任的人、坦率否定同事的方案。领导者若只挑舒服的部分执行，最终只会得到一个热闹却不出成果的组织。"
+  },
+  {
+    id: "leaders-guide-corporate-culture",
+    url: "https://hbr.org/2018/01/the-leaders-guide-to-corporate-culture",
+    zhTitle: "领导者的企业文化指南",
+    enTitle: "The Leader’s Guide to Corporate Culture",
+    author: "Boris Groysberg, Jeremiah Lee, Jesse Price & J. Yo-Jud Cheng",
+    year: 2018,
+    category: "组织管理",
+    tags: ["企业文化", "战略对齐", "组织诊断"],
+    summary: "作者把纷繁的企业文化归纳为可比较的八种取向，并用「独立—互赖」与「灵活—稳定」两个维度加以定位。文化不是虚无的口号，而是能被诊断、能有意识地与战略对齐的管理对象。",
+    detail: "研究梳理出关怀、目标、学习、愉悦、成果、权威、安全、秩序八类文化风格，分别对应人际互动方式与面对变化的反应倾向。没有哪种风格天然优越，关键在于是否匹配企业所处环境与战略：动荡市场偏向学习与目标导向，强监管行业则更依赖秩序与安全。诊断时要分清员工真实感受到的文化与高层宣称的文化，两者的落差往往正是执行受阻的根源。推动文化转变的杠杆包括重新定义领导者行为、有选择地引入与晋升特定人才，以及让组织设计和考核同步跟上。"
+  },
+  {
+    id: "begin-with-trust",
+    url: "https://hbr.org/2020/05/begin-with-trust",
+    zhTitle: "从建立信任开始",
+    enTitle: "Begin with Trust",
+    author: "Frances X. Frei & Anne Morriss",
+    year: 2020,
+    category: "领导力",
+    tags: ["信任", "赋能式领导", "自我觉察"],
+    summary: "领导力的本质是让他人因你而变得更好，而这一切的前提是信任。信任由真诚、逻辑与同理三根支柱撑起，任何一根松动，影响力都会悄悄流失。",
+    detail: "作者把信任拆成三项可诊断的要素：对方是否相信你言行如一，是否相信你的判断与能力站得住脚，是否感到你真心在意他们。多数人都有一根固定的薄弱支柱，压力之下最先塌陷——有人忙于自证而心不在焉，有人明明有洞见却表达混乱让人无从信服。修复方式各不相同：同理薄弱者要放下设备真正在场，逻辑薄弱者应先给结论再补依据，真诚薄弱者则需承担说真话的短期代价。文章的落点在于，领导者的目标不是让自己发光，而是即便自己不在场，团队依然表现出色。"
+  },
+  {
+    id: "age-of-continuous-connection",
+    url: "https://hbr.org/2019/05/the-age-of-continuous-connection",
+    zhTitle: "持续连接的时代",
+    enTitle: "The Age of Continuous Connection",
+    author: "Nicolaj Siggelkow & Christian Terwiesch",
+    year: 2019,
+    category: "客户体验",
+    tags: ["连接型战略", "商业模式", "数据闭环"],
+    summary: "数字技术让企业得以与客户保持全天候连接，一次性交易关系正在让位于持续陪伴式关系。作者主张重构商业模式，从等客户上门转向先一步察觉并满足需求。",
+    detail: "文章提出连接型战略的四种形态：按客户明确指令响应、把重复购买自动化、依据数据主动给出建议，以及在客户开口之前就完成交付。企业沿这条阶梯越往上走，越能提前介入客户的需求链条，也越能积累对手拿不到的行为数据，形成自我强化的优势。要真正跑通，需要打通识别需求、给出方案、完成交付、持续复用的完整闭环，任何一环缺失都会让体验断裂。最大的挑战其实不在技术，而在企业是否愿意重塑收费方式、组织分工与激励，把一次性销售改造成长期关系。"
   },
 ];
 
