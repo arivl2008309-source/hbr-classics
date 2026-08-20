@@ -13,13 +13,13 @@
  */
 
 const META = {
-  lastUpdated: "2026-08-06",
+  lastUpdated: "2026-08-20",
   newIds: [
-    "why-design-thinking-works",
-    "hard-truth-innovative-cultures",
-    "leaders-guide-corporate-culture",
-    "begin-with-trust",
-    "age-of-continuous-connection"
+    "leader-as-coach",
+    "feedback-fallacy",
+    "customer-loyalty-is-overrated",
+    "new-analytics-of-culture",
+    "managing-our-hub-economy"
   ]
 };
 
@@ -984,6 +984,69 @@ const ARTICLES = [
     tags: ["连接型战略", "商业模式", "数据闭环"],
     summary: "数字技术让企业得以与客户保持全天候连接，一次性交易关系正在让位于持续陪伴式关系。作者主张重构商业模式，从等客户上门转向先一步察觉并满足需求。",
     detail: "文章提出连接型战略的四种形态：按客户明确指令响应、把重复购买自动化、依据数据主动给出建议，以及在客户开口之前就完成交付。企业沿这条阶梯越往上走，越能提前介入客户的需求链条，也越能积累对手拿不到的行为数据，形成自我强化的优势。要真正跑通，需要打通识别需求、给出方案、完成交付、持续复用的完整闭环，任何一环缺失都会让体验断裂。最大的挑战其实不在技术，而在企业是否愿意重塑收费方式、组织分工与激励，把一次性销售改造成长期关系。"
+  },
+
+  /* ===================== 本期新增（2017–2020 经典补完） ===================== */
+
+  {
+    id: "leader-as-coach",
+    url: "https://hbr.org/2019/11/the-leader-as-coach",
+    zhTitle: "领导者首先是教练",
+    enTitle: "The Leader as Coach",
+    author: "Herminia Ibarra & Anne Scoular",
+    year: 2019,
+    category: "领导力",
+    tags: ["教练式领导", "人才发展", "赋能"],
+    summary: "Ibarra 与 Scoular 提出，最稀缺的领导力不是发号施令，而是像教练那样开发人的潜能。在知识型组织里，命令—控制式管理越来越失灵，真正有效的领导是把下属的成长当成自己的业绩。",
+    detail: "文章区分了教练与导师、老板的本质差异：教练不直接给答案，而是通过提问、倾听与反馈，帮下属自己找到解法。作者给出可操作的教练式对话框架，并指出领导者转型时最常掉进的坑——忍不住代劳、把辅导当成一年一次的例行任务、只盯绩效数字而忽视人的状态。练好教练式领导，能同时释放团队的能量、承诺与创新力。"
+  },
+  {
+    id: "feedback-fallacy",
+    url: "https://hbr.org/2019/03/the-feedback-fallacy",
+    zhTitle: "反馈的谬误",
+    enTitle: "The Feedback Fallacy",
+    author: "Marcus Buckingham & Ashley Goodall",
+    year: 2019,
+    category: "绩效管理",
+    tags: ["反馈", "优势", "员工成长"],
+    summary: "Buckingham 与 Goodall 直指一个被广泛接受却站不住脚的管理习惯：用指出缺点、帮助改正的方式做反馈。他们认为，建立在纠正弱点之上的反馈，反而会削弱而非提升表现。",
+    detail: "两位作者从心理学与数据出发，论证了反馈能客观反映真实表现这一前提本身就是幻觉——评价者看到的往往只是自己的投射。真正的杠杆是关注优势：人只有在被允许绽放所长时，才会达到卓越。文章给出替代做法：用赏识式提问取代批评，用高频、具体、面向未来的认可替代一年一度的打分。这与重新发明绩效管理的思路一脉相承。"
+  },
+  {
+    id: "customer-loyalty-is-overrated",
+    url: "https://hbr.org/2017/01/customer-loyalty-is-overrated",
+    zhTitle: "客户忠诚被高估了",
+    enTitle: "Customer Loyalty Is Overrated",
+    author: "A.G. Lafley & Roger Martin",
+    year: 2017,
+    category: "客户体验",
+    tags: ["客户增长", "品牌", "战略"],
+    summary: "Lafley 与 Martin 挑战了一个看似不言自明的信条：企业应当优先留住老客户、提升忠诚度。他们用宝洁等案例说明，过度迷恋忠诚，反而会让公司错过更大的增长——赢得新客户。",
+    detail: "两位作者指出，许多公司把品牌重塑、会员体系等动作建立在忠诚客户更值钱的假设上，但这个假设常常不成立。真正的增长往往来自不断把潜在顾客转化为新客户，而非在存量里反复耕耘。他们建议管理者把注意力从让老客户更忠诚转向如何更高效地把新客户拉进门，并重新评估那些以忠诚为名、实则拖累增长的投入。"
+  },
+  {
+    id: "new-analytics-of-culture",
+    url: "https://hbr.org/2020/01/the-new-analytics-of-culture",
+    zhTitle: "用新数据分析文化",
+    enTitle: "The New Analytics of Culture",
+    author: "Matthew Corritore, Amir Goldberg & Sameer B. Srivastava",
+    year: 2020,
+    category: "数据分析",
+    tags: ["文化分析", "组织诊断", "自然语言处理"],
+    summary: "Corritore、Goldberg 与 Srivastava 提出，企业文化虽能被感知却极难量化，传统员工问卷并不可靠。他们用自然语言处理分析企业内部沟通文本，开辟了文化分析的新路径。",
+    detail: "文章展示了一种新方法：用机器学习解读邮件、会议记录等日常沟通，从语言中提炼出组织的文化指纹——例如偏向协作还是竞争、鼓励权威还是包容异议。相比问卷，文本分析更难被粉饰、更能捕捉真实行为。作者以案例说明，这种分析能帮助领导者在并购、转型等关键时刻提前发现文化冲突与风险，把原本模糊的软议题变成可监测的硬指标。"
+  },
+  {
+    id: "managing-our-hub-economy",
+    url: "https://hbr.org/2017/09/managing-our-hub-economy",
+    zhTitle: "枢纽经济下的生存法则",
+    enTitle: "Managing Our Hub Economy",
+    author: "Marco Iansiti & Karim R. Lakhani",
+    year: 2017,
+    category: "战略",
+    tags: ["平台生态", "枢纽企业", "竞争"],
+    summary: "Iansiti 与 Lakhani 观察到，少数数字巨头已成为掌控数十亿用户入口的枢纽企业，围绕它们的不再是传统产业链，而是平台生态。",
+    detail: "两位作者提出枢纽经济框架：枢纽企业掌握关键的连接与数据，既赋能又约束依附其上的海量参与者。对身处其中的企业而言，战略问题从如何打败对手变成如何在枢纽生态里定位、借力而不被吞噬。文章给出了参与者与枢纽方各自的生存逻辑，提醒管理者：在枢纽主导的世界里，竞争规则已被重写，理解生态位比死守市场份额更重要。"
   },
 ];
 
