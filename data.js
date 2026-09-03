@@ -13,13 +13,13 @@
  */
 
 const META = {
-  lastUpdated: "2026-08-20",
+  lastUpdated: "2026-09-03",
   newIds: [
-    "leader-as-coach",
-    "feedback-fallacy",
-    "customer-loyalty-is-overrated",
-    "new-analytics-of-culture",
-    "managing-our-hub-economy"
+    "focused-leader",
+    "big-lie-strategic-planning",
+    "emotional-agility",
+    "power-of-small-wins",
+    "good-data-wont-guarantee-decisions"
   ]
 };
 
@@ -1047,6 +1047,69 @@ const ARTICLES = [
     tags: ["平台生态", "枢纽企业", "竞争"],
     summary: "Iansiti 与 Lakhani 观察到，少数数字巨头已成为掌控数十亿用户入口的枢纽企业，围绕它们的不再是传统产业链，而是平台生态。",
     detail: "两位作者提出枢纽经济框架：枢纽企业掌握关键的连接与数据，既赋能又约束依附其上的海量参与者。对身处其中的企业而言，战略问题从如何打败对手变成如何在枢纽生态里定位、借力而不被吞噬。文章给出了参与者与枢纽方各自的生存逻辑，提醒管理者：在枢纽主导的世界里，竞争规则已被重写，理解生态位比死守市场份额更重要。"
+  },
+
+  /* ===================== 本期新增（2011–2014 决策与专注） ===================== */
+
+  {
+    id: "focused-leader",
+    url: "https://hbr.org/2013/12/the-focused-leader",
+    zhTitle: "专注的领导者",
+    enTitle: "The Focused Leader",
+    author: "Daniel Goleman",
+    year: 2013,
+    category: "领导力",
+    tags: ["专注力", "注意力", "情商"],
+    summary: "Goleman 认为，注意力是领导力一切能力的基础——情绪智力、组织智力、战略智力都建立在「专注」之上。他区分三种注意力：聚焦自我（内省）、聚焦他人（同理）、聚焦外部（全局系统），主张领导者必须刻意训练三者的平衡。",
+    detail: "文章指出，多数领导者把注意力当成理所当然，却没意识到它可以被训练。聚焦自我的专注让人听见直觉与价值观；聚焦他人的专注是同理心的来源，能读懂团队情绪；聚焦外部（开阔的系统觉察）让人看见行业与生态的全貌。三种专注此消彼长——只顾大局会疏远人，只顾眼前会失去方向。Goleman 用正念等练习说明，专注力是一种可重建的「肌肉」，决定领导者在复杂环境里能否既看清也连住。"
+  },
+  {
+    id: "big-lie-strategic-planning",
+    url: "https://hbr.org/2014/01/the-big-lie-of-strategic-planning",
+    zhTitle: "战略规划的大谎言",
+    enTitle: "The Big Lie of Strategic Planning",
+    author: "Roger L. Martin",
+    year: 2014,
+    category: "战略",
+    tags: ["战略规划", "不确定性", "判断"],
+    summary: "Martin 直言，把战略规划当成可精确推演未来的流程是个谎言。真正的战略不是年度表格里算出来的，而是在「能掌控的当下」与「不可知的未来」之间，靠判断与选择一步步走出来的。",
+    detail: "他认为战略制定的本质是不确定性下的抉择，而传统规划流程用虚假的精确感麻痹了管理者——把假设包装成预测、用表格的确定性掩盖未来的不可知。更好的做法是把战略当作一系列「对赌」：在当下资源可承受的范围内押注，并随新信息快速调整。文章主张用「选项思维」替代线性预测，让组织保持灵活，而非被一份年度计划锁死。"
+  },
+  {
+    id: "emotional-agility",
+    url: "https://hbr.org/2013/11/emotional-agility",
+    zhTitle: "情绪敏捷",
+    enTitle: "Emotional Agility",
+    author: "Susan David & Christina Congleton",
+    year: 2013,
+    category: "自我管理",
+    tags: ["情绪", "自我觉察", "韧性"],
+    summary: "David 与 Congleton 反对「职场里不该有负面情绪」的常识，提出「情绪敏捷」：不对抗、不压抑情绪，而是与情绪保持距离、看清它想传递的信号，再带着觉察去行动。",
+    detail: "文章把人在压力下的典型反应分为四类——被情绪裹挟、回避情绪、被情绪主导、以及「情绪敏捷」。情绪敏捷的关键不是积极思考，而是「拆钩」：承认「我此刻感到焦虑」而非「我就是焦虑的人」，从而拿回选择的主动权。作者给出四步：接纳真实情绪、标注它、拿客观视角看它、按价值观行动。这套能力让员工在不确定与高压下，既不失人性也不失效率。"
+  },
+  {
+    id: "power-of-small-wins",
+    url: "https://hbr.org/2011/05/the-power-of-small-wins",
+    zhTitle: "小胜的力量",
+    enTitle: "The Power of Small Wins",
+    author: "Teresa M. Amabile & Steven J. Kramer",
+    year: 2011,
+    category: "自我管理",
+    tags: ["内驱力", "进展原则", "动力"],
+    summary: "Amabile 与 Kramer 基于多年研究得出反直觉结论：驱动员工投入与创造力的，不是大愿景或激励机制，而是「每天看见自己进步」的小小成就感。",
+    detail: "两人追踪知识工作者的日记发现，「进步事件」——哪怕只是解决一个棘手小问题——对内在动力与情绪的正向影响，远超金钱、认可或宏大目标。反之，一次微小的挫败或阻碍，也会迅速抽干能量。他们提出「进展原则」：管理者最重要的工作不是不断施压，而是为团队扫除障碍、让有意义的进展每天可见。把大目标拆成可达成的小节点，让人在「小赢」中累积前行的动力。"
+  },
+  {
+    id: "good-data-wont-guarantee-decisions",
+    url: "https://hbr.org/2012/04/good-data-wont-guarantee-good-decisions",
+    zhTitle: "好数据不保证好决策",
+    enTitle: "Good Data Won't Guarantee Good Decisions",
+    author: "Shvetank Shah & Andrew Horne & Jaime Capellá",
+    year: 2012,
+    category: "数据分析",
+    tags: ["数据素养", "判断", "决策"],
+    summary: "Shah 等人指出，企业砸钱建数据平台，却常忽视一个更关键的短板：真正能用数据做判断的人太少。数据本身不会自动转化为好决策，缺的是「数据素养」。",
+    detail: "文章把组织里的人分成三类：数据极客（能深挖却不懂业务）、业务老手（懂业务却看不懂数据）、以及稀缺的「翻译者」——既懂数据又懂业务、能把分析变成行动。多数公司两头多、中间少，导致数据躺在仓库、决策仍靠直觉。对策不是再买工具，而是有意识地培养「翻译者」：让分析师轮岗懂业务、让业务管理者学读数据，并建立让数据真正进入讨论的日常机制。这正好呼应——判断不能被数据替代。"
   },
 ];
 
