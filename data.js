@@ -1055,6 +1055,7 @@ const ARTICLES = [
 
   {
     id: "focused-leader",
+    added: "2026-09",
     url: "https://hbr.org/2013/12/the-focused-leader",
     zhTitle: "专注的领导者",
     enTitle: "The Focused Leader",
@@ -1067,6 +1068,7 @@ const ARTICLES = [
   },
   {
     id: "big-lie-strategic-planning",
+    added: "2026-09",
     url: "https://hbr.org/2014/01/the-big-lie-of-strategic-planning",
     zhTitle: "战略规划的大谎言",
     enTitle: "The Big Lie of Strategic Planning",
@@ -1079,6 +1081,7 @@ const ARTICLES = [
   },
   {
     id: "emotional-agility",
+    added: "2026-09",
     url: "https://hbr.org/2013/11/emotional-agility",
     zhTitle: "情绪敏捷",
     enTitle: "Emotional Agility",
@@ -1091,6 +1094,7 @@ const ARTICLES = [
   },
   {
     id: "power-of-small-wins",
+    added: "2026-09",
     url: "https://hbr.org/2011/05/the-power-of-small-wins",
     zhTitle: "小胜的力量",
     enTitle: "The Power of Small Wins",
@@ -1103,6 +1107,7 @@ const ARTICLES = [
   },
   {
     id: "good-data-wont-guarantee-decisions",
+    added: "2026-09",
     url: "https://hbr.org/2012/04/good-data-wont-guarantee-good-decisions",
     zhTitle: "好数据不保证好决策",
     enTitle: "Good Data Won't Guarantee Good Decisions",
