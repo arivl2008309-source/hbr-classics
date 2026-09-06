@@ -235,6 +235,45 @@
       .map((o) => o.x);
   }
 
+  /* ---------- 本期专题 ---------- */
+  function renderFeaturedIssue() {
+    const section = document.getElementById("featured-issue");
+    const titleEl = document.getElementById("featured-title");
+    const hookEl = document.getElementById("featured-hook");
+    const gridEl = document.getElementById("featured-grid");
+    const totalEl = document.getElementById("featured-total");
+    if (!section || !titleEl || !hookEl || !gridEl) return;
+    if (!META.issueTitle) {
+      section.style.display = "none";
+      return;
+    }
+    titleEl.textContent = META.issueTitle;
+    hookEl.textContent = META.issueHook || "";
+    if (totalEl) totalEl.textContent = ARTICLES.length;
+    const issueArticles = ARTICLES.filter((a) => NEW_SET.has(a.id));
+    gridEl.innerHTML = "";
+    issueArticles.forEach((a) => {
+      const item = document.createElement("article");
+      item.className = "featured-card";
+      item.tabIndex = 0;
+      item.innerHTML = `
+        <span class="cat-badge">${esc(a.category)}</span>
+        <h4>${esc(a.zhTitle)}</h4>
+        <div class="featured-author">${esc(a.author)} · ${a.year}</div>
+        <p>${esc(a.summary)}</p>
+      `;
+      item.addEventListener("click", () => navigateTo(a.id));
+      item.addEventListener("keydown", (e) => {
+        if (e.key === "Enter" || e.key === " ") {
+          e.preventDefault();
+          navigateTo(a.id);
+        }
+      });
+      gridEl.appendChild(item);
+    });
+    section.style.display = "";
+  }
+
   /* ---------- 详情弹窗 ---------- */
   const overlay = document.getElementById("modal-overlay");
   const modal = document.getElementById("modal");
@@ -266,7 +305,7 @@
       </div>
       <div class="cta-box">
         <div class="cta-title">觉得有启发？</div>
-        <p>关注公众号 <strong>「你的公众号名称」</strong>，每双周收到一份 AI 精选的 HBR 经典解读。</p>
+        <p>关注公众号 <strong>「数据不撒谎」</strong>（微信号 arivl20220705），每双周收到一份 AI 精选的 HBR 经典解读。</p>
       </div>
       <a class="read-link" href="${link}" target="_blank" rel="noopener noreferrer">阅读原文（HBR 官方）</a>
     `;
@@ -446,6 +485,7 @@
   /* ---------- 初始化 ---------- */
   renderChips();
   renderGrid();
+  renderFeaturedIssue();
   syncRoute(); // 支持带 #/id 直接打开
   checkUpdateBadge();
 })();

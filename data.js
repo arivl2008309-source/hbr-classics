@@ -14,6 +14,8 @@
 
 const META = {
   lastUpdated: "2026-09-03",
+  issueTitle: "决策与专注：稀缺的注意力，才是领导者的第一资源",
+  issueHook: "在信息过载的时代，领导者最稀缺的从来不是远见、资源或执行力，而是「注意力」本身——以及把注意力用在刀刃上的「判断」。",
   newIds: [
     "focused-leader",
     "big-lie-strategic-planning",
