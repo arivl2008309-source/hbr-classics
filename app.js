@@ -274,6 +274,43 @@
     section.style.display = "";
   }
 
+  /* ---------- 月度回顾 ---------- */
+  function renderMonthlyReview() {
+    const section = document.getElementById("monthly-review");
+    const titleEl = document.getElementById("monthly-title");
+    const hookEl = document.getElementById("monthly-hook");
+    const gridEl = document.getElementById("monthly-grid");
+    const totalEl = document.getElementById("monthly-total");
+    if (!section || !titleEl || !hookEl || !gridEl) return;
+    const ms = META.monthlySummary;
+    if (!ms || !ms.month) { section.style.display = "none"; return; }
+    titleEl.textContent = ms.title || (ms.month + " 月度回顾");
+    hookEl.textContent = ms.hook || "";
+    const issueArticles = ARTICLES.filter((a) => a.added === ms.month);
+    if (totalEl) totalEl.textContent = issueArticles.length;
+    gridEl.innerHTML = "";
+    issueArticles.forEach((a) => {
+      const item = document.createElement("article");
+      item.className = "monthly-card";
+      item.tabIndex = 0;
+      item.innerHTML = `
+        <span class="cat-badge">${esc(a.category)}</span>
+        <h4>${esc(a.zhTitle)}</h4>
+        <div class="monthly-author">${esc(a.author)} · ${a.year}</div>
+        <p>${esc(a.summary)}</p>
+      `;
+      item.addEventListener("click", () => navigateTo(a.id));
+      item.addEventListener("keydown", (e) => {
+        if (e.key === "Enter" || e.key === " ") {
+          e.preventDefault();
+          navigateTo(a.id);
+        }
+      });
+      gridEl.appendChild(item);
+    });
+    section.style.display = "";
+  }
+
   /* ---------- 详情弹窗 ---------- */
   const overlay = document.getElementById("modal-overlay");
   const modal = document.getElementById("modal");
@@ -486,6 +523,7 @@
   renderChips();
   renderGrid();
   renderFeaturedIssue();
+  renderMonthlyReview();
   syncRoute(); // 支持带 #/id 直接打开
   checkUpdateBadge();
 })();

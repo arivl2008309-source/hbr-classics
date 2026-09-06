@@ -22,7 +22,14 @@ const META = {
     "emotional-agility",
     "power-of-small-wins",
     "good-data-wont-guarantee-decisions"
-  ]
+  ],
+  monthlySummary: {
+    month: "2026-09",
+    title: "2026 年 9 月 · HBR 策展月度回顾",
+    hook: "本月我们都在谈：如何在不确定的环境里守住注意力、做出有判断的选择。",
+    topIds: ["focused-leader", "big-lie-strategic-planning", "good-data-wont-guarantee-decisions"],
+    totalAdded: 5
+  }
 };
 
 const ARTICLES = [
