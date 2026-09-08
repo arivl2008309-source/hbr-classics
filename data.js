@@ -21,14 +21,18 @@ const META = {
     "big-lie-strategic-planning",
     "emotional-agility",
     "power-of-small-wins",
-    "good-data-wont-guarantee-decisions"
+    "good-data-wont-guarantee-decisions",
+    "why-good-leaders-make-bad-decisions",
+    "how-to-manage-avoid-mental-fatigue",
+    "leaders-framework-decision-making",
+    "3-questions-pressure-test-priorities"
   ],
   monthlySummary: {
     month: "2026-09",
     title: "2026 年 9 月 · HBR 策展月度回顾",
     hook: "本月我们都在谈：如何在不确定的环境里守住注意力、做出有判断的选择。",
-    topIds: ["focused-leader", "big-lie-strategic-planning", "good-data-wont-guarantee-decisions"],
-    totalAdded: 5
+    topIds: ["focused-leader", "why-good-leaders-make-bad-decisions", "leaders-framework-decision-making", "3-questions-pressure-test-priorities"],
+    totalAdded: 9
   }
 };
 
@@ -1124,6 +1128,58 @@ const ARTICLES = [
     tags: ["数据素养", "判断", "决策"],
     summary: "Shah 等人指出，企业砸钱建数据平台，却常忽视一个更关键的短板：真正能用数据做判断的人太少。数据本身不会自动转化为好决策，缺的是「数据素养」。",
     detail: "文章把组织里的人分成三类：数据极客（能深挖却不懂业务）、业务老手（懂业务却看不懂数据）、以及稀缺的「翻译者」——既懂数据又懂业务、能把分析变成行动。多数公司两头多、中间少，导致数据躺在仓库、决策仍靠直觉。对策不是再买工具，而是有意识地培养「翻译者」：让分析师轮岗懂业务、让业务管理者学读数据，并建立让数据真正进入讨论的日常机制。这正好呼应——判断不能被数据替代。"
+  },
+  {
+    id: "why-good-leaders-make-bad-decisions",
+    added: "2026-09",
+    url: "https://hbr.org/2009/02/why-good-leaders-make-bad-decisions",
+    zhTitle: "好领导为什么也会做坏决定",
+    enTitle: "Why Good Leaders Make Bad Decisions",
+    author: "Andrew Campbell & Jo Whitehead & Sydney Finkelstein",
+    year: 2009,
+    category: "领导力",
+    tags: ["决策陷阱", "判断偏差", "领导力"],
+    summary: "Campbell、Whitehead 与 Finkelstein 指出，优秀领导者做出糟糕决定，很少是因为缺乏才智或信息，而是被三类「误导性判断」劫持：对过往成功模式的盲目依赖、对沉没成本的不舍、以及被错误记忆误导。",
+    detail: "三位作者把决策失误归结为「惯性思维」——大脑在压力或熟悉情境下，会自动套用过去的经验模板，而忽略当下的新信号。破解之道不是更努力思考，而是改变决策流程：设立专门挑战方案的「红队」、要求书面列出关键假设、让最接近现场的人拥有否决权。核心洞见是：好决策靠流程设计，而不是相信高管的聪明。"
+  },
+  {
+    id: "how-to-manage-avoid-mental-fatigue",
+    added: "2026-09",
+    url: "https://hbr.org/2024/10/how-to-manage-and-avoid-mental-fatigue",
+    zhTitle: "如何管理并避免精神疲劳",
+    enTitle: "How to Manage — and Avoid — Mental Fatigue",
+    author: "Mithu Storoni",
+    year: 2024,
+    category: "自我管理",
+    tags: ["决策疲劳", "精力管理", "专注力"],
+    summary: "神经科学家 Storoni 把精神疲劳拆成两种：一种来自长时间单调专注，一种来自频繁的任务切换。前者耗的是「持续注意力」，后者耗的是「认知灵活性」，解法完全不同。",
+    detail: "文章强调，决策质量随精神能量波动。长时间盯一件事会让人「越做越钝」，频繁切换则会让人「越做越乱」。对应的恢复方式也不同：单调专注后的疲劳需要变化与新鲜刺激（如走神、换环境），而切换过载后的疲劳需要减少选择、进入「自动驾驶」式的低风险活动。保护团队的决策能量，和分配预算一样重要——不要在一天里最累的时段安排最重要的判断。"
+  },
+  {
+    id: "leaders-framework-decision-making",
+    added: "2026-09",
+    url: "https://hbr.org/2007/11/a-leaders-framework-for-decision-making",
+    zhTitle: "领导者决策框架",
+    enTitle: "A Leader's Framework for Decision Making",
+    author: "David J. Snowden & Mary E. Boone",
+    year: 2007,
+    category: "战略",
+    tags: ["决策框架", "复杂性", "Cynefin"],
+    summary: "Snowden 与 Boone 用 Cynefin 框架把问题分成简单、繁杂、复杂、混乱四类，主张决策方法必须匹配情境——用错框架，越努力越糟。",
+    detail: "文章的核心是一张情境—对策地图：简单问题（已知因果）用「感知—分类—响应」，套用最佳实践即可；繁杂问题（专家能理清因果）用「感知—分析—响应」，靠数据与专家；复杂问题（因果事后才清晰）只能用「试探—感知—响应」，靠小步实验与迭代；混乱问题则要「行动—感知—响应」，先稳住再理清。许多领导者败在把复杂当繁杂、把繁杂当简单——把方法「做减法」，只对的情形用对的工具，本身就是一种决策力。"
+  },
+  {
+    id: "3-questions-pressure-test-priorities",
+    added: "2026-09",
+    url: "https://hbr.org/2026/07/3-questions-to-pressure-test-your-priorities",
+    zhTitle: "用三个问题压力测试你的优先级",
+    enTitle: "3 Questions to Pressure-Test Your Priorities",
+    author: "Karen Walker",
+    year: 2026,
+    category: "领导力",
+    tags: ["优先级", "专注力", "减法"],
+    summary: "Walker 观察到，今天的管理者活在一种「环境性紧迫」里——所有事都被标记成紧急，真正的要务反而被淹没。她给出三个问题来戳破这种幻觉。",
+    detail: "三个问题是：这件事不做会怎样？（多数「紧急」其实不做也塌不了）它服务于谁的议程？（是组织的目标，还是别人的 convenient？）半年后它还重要吗？（用时间拉长检验真实权重）文章指出，当所有事都紧急，就等于没有紧急；决策的质量，常常不取决于多加什么，而取决于敢砍掉什么。这与「专注」一脉相承：守住注意力的前提，是先做减法。"
   },
 ];
 
