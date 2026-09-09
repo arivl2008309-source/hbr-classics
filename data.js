@@ -13,7 +13,7 @@
  */
 
 const META = {
-  lastUpdated: "2026-09-03",
+  lastUpdated: "2026-09-09",
   issueTitle: "决策与专注：稀缺的注意力，才是领导者的第一资源",
   issueHook: "在信息过载的时代，领导者最稀缺的从来不是远见、资源或执行力，而是「注意力」本身——以及把注意力用在刀刃上的「判断」。",
   newIds: [
@@ -25,14 +25,19 @@ const META = {
     "why-good-leaders-make-bad-decisions",
     "how-to-manage-avoid-mental-fatigue",
     "leaders-framework-decision-making",
-    "3-questions-pressure-test-priorities"
+    "3-questions-pressure-test-priorities",
+    "big-decision-kahneman",
+    "hidden-traps",
+    "disciplined-pursuit-of-less",
+    "decision-driven-org",
+    "manage-your-energy-not-your-time"
   ],
   monthlySummary: {
     month: "2026-09",
     title: "2026 年 9 月 · HBR 策展月度回顾",
     hook: "本月我们都在谈：如何在不确定的环境里守住注意力、做出有判断的选择。",
-    topIds: ["focused-leader", "why-good-leaders-make-bad-decisions", "leaders-framework-decision-making", "3-questions-pressure-test-priorities"],
-    totalAdded: 9
+    topIds: ["focused-leader", "big-decision-kahneman", "hidden-traps", "disciplined-pursuit-of-less", "manage-your-energy-not-your-time"],
+    totalAdded: 14
   }
 };
 
@@ -1179,7 +1184,72 @@ const ARTICLES = [
     category: "领导力",
     tags: ["优先级", "专注力", "减法"],
     summary: "Walker 观察到，今天的管理者活在一种「环境性紧迫」里——所有事都被标记成紧急，真正的要务反而被淹没。她给出三个问题来戳破这种幻觉。",
-    detail: "三个问题是：这件事不做会怎样？（多数「紧急」其实不做也塌不了）它服务于谁的议程？（是组织的目标，还是别人的 convenient？）半年后它还重要吗？（用时间拉长检验真实权重）文章指出，当所有事都紧急，就等于没有紧急；决策的质量，常常不取决于多加什么，而取决于敢砍掉什么。这与「专注」一脉相承：守住注意力的前提，是先做减法。"
+    detail: "三个问题是：这件事不做会怎样？（多数「紧急」其实不做也塌不了）它服务于谁的议程？（是组织的目标，还是别人塞给你的议程）半年后它还重要吗？（用时间拉长检验真实权重）文章指出，当所有事都紧急，就等于没有紧急；决策的质量，常常不取决于多加什么，而取决于敢砍掉什么。这与「专注」一脉相承：守住注意力的前提，是先做减法。"
+  },
+  {
+    id: "big-decision-kahneman",
+    added: "2026-09",
+    url: "https://hbr.org/2011/06/the-big-idea-before-you-make-that-big-decision",
+    zhTitle: "在你做那个大决定之前",
+    enTitle: "Before You Make That Big Decision…",
+    author: "Daniel Kahneman & Dan Lovallo & Olivier Sibony",
+    year: 2011,
+    category: "决策",
+    tags: ["认知偏差", "战略决策", "判断"],
+    summary: "Kahneman、Lovallo 与 Sibony 指出，战略决策几乎都会被四类心理偏差悄悄劫持：对过往经验的过度依赖、对竞争威胁的过度反应、对沉没成本的不舍、以及被片面信息锚定。真正危险的不是信息不足，而是大脑在替你「脑补」一个并不存在的因果。",
+    detail: "三位作者把决策中的偏差分成「内源性」与「外源性」两类，并给出对应的「减震器」：用外部视角（参考同类案例的基准率）对抗过度自信，用预设的退出标准对抗沉没成本，用「事前验尸」（假设项目已失败、倒推原因）逼出被忽略的风险。文章的核心洞见是——再有经验的领导者，也敌不过自己的认知捷径；能救你的，是流程里预先埋好的「纠偏机制」，而不是临场更努力思考。"
+  },
+  {
+    id: "hidden-traps",
+    added: "2026-09",
+    url: "https://hbr.org/2006/01/the-hidden-traps-in-decision-making",
+    zhTitle: "决策中的隐性陷阱",
+    enTitle: "The Hidden Traps in Decision Making",
+    author: "John S. Hammond & Ralph L. Keeney & Howard Raiffa",
+    year: 2006,
+    category: "决策",
+    tags: ["认知陷阱", "判断偏差", "决策流程"],
+    summary: "Hammond、Keeney 与 Raiffa 系统梳理了决策者最常掉进去的陷阱：锚定效应、现状偏好、沉没成本、确认偏误、框架效应等。多数陷阱不是你「不知道」，而是你「知道却仍中招」。",
+    detail: "文章把陷阱分成可识别的几类，并逐一给出拆法：对抗锚定——先独立形成判断再接触他人意见；对抗现状偏好——把「什么都不做」也当成一种主动选择来评估；对抗确认偏误——主动去找能反驳你的证据；对抗框架效应——用数字而非描述来还原同一件事。它与前两篇（好领导也会做坏决定、做决定之前）是同一阵线的「偏差三部曲」，共同指向一个结论：决策质量取决于你有没有给大脑装「防错护栏」。"
+  },
+  {
+    id: "disciplined-pursuit-of-less",
+    added: "2026-09",
+    url: "https://hbr.org/2012/08/the-disciplined-pursuit-of-less",
+    zhTitle: "有纪律地追求更少",
+    enTitle: "The Disciplined Pursuit of Less",
+    author: "Greg McKeown",
+    year: 2012,
+    category: "自我管理",
+    tags: ["精要主义", "专注力", "减法"],
+    summary: "McKeown 提出「清晰度悖论」：成功带来更多机会，机会一多反而稀释了焦点，最终让人从「样样都行」滑向「样样平庸」。破解之道不是更努力，而是更有纪律地做减法。",
+    detail: "文章把人的精力走向拆成四个阶段：清晰的目标带来成功、成功带来更多选项、选项稀释了焦点、焦点散了便失去清晰度——这是一个会自我恶化的循环。要打破它，得主动问「哪件是当下最重要的事」，并敢于对其它说「不」。这与整个系列的主题严丝合缝：守住注意力的前提，是持续地、纪律性地砍掉非必要。把 McKeown 的「精要主义」当成日常执行的操作手册，比任何时间管理技巧都更根本。"
+  },
+  {
+    id: "decision-driven-org",
+    added: "2026-09",
+    url: "https://hbr.org/2010/06/the-decision-driven-organization",
+    zhTitle: "以决策驱动的组织",
+    enTitle: "The Decision-Driven Organization",
+    author: "Marcia W. Blenko & Michael Mankins & Paul Rogers",
+    year: 2010,
+    category: "战略",
+    tags: ["决策权", "组织设计", "执行力"],
+    summary: "Blenko、Mankins 与 Rogers 主张，组织的真正枢纽不是架构图，而是「谁有权做哪个决定」。把决策权厘清，比调整汇报线更能提升执行力与速度。",
+    detail: "三位作者指出，大多数组织的问题不是没人做决定，而是决策权模糊——同一件事好几个人都在「参与」，却没人真正负责，导致决策在层级间空转、缓慢、失真。他们提出以「决策地图」取代组织架构图：先列出最关键的一批决策，再明确每项决策的负责人、参与者和审批者，并减少不必要的层层上报。这篇文章把「专注与决策」从个人心智层面，拉到了组织机制层面——个人再清醒，若组织流程让他无法拍板，好判断也落不了地。"
+  },
+  {
+    id: "manage-your-energy-not-your-time",
+    added: "2026-09",
+    url: "https://hbr.org/2007/10/manage-your-energy-not-your-time",
+    zhTitle: "管理你的精力，而不是时间",
+    enTitle: "Manage Your Energy, Not Your Time",
+    author: "Tony Schwartz & Catherine McCarthy",
+    year: 2007,
+    category: "自我管理",
+    tags: ["精力管理", "专注力", "恢复"],
+    summary: "Schwartz 与 McCarthy 一针见血：时间是个刚性上限，再怎么管也不会多出一秒；真正能被拓展的是「精力」。人的精力像肌肉，有消耗也有恢复，而多数组织只逼人消耗、不给恢复。",
+    detail: "他们把精力分成四个维度——体能、情绪、心智、精神，并指出可持续的高绩效来自「张弛有度」的节奏：高度专注后主动恢复，而非一路硬撑到耗尽。具体到个人，可以是规律作息、短暂抽离、把最难的判断放在精力峰值时段。这篇文章和系列二里「精神疲劳」那篇互为表里：决策质量的上限，是你的精力曲线——别在你最累的时候做最重要的决定。"
   },
 ];
 
