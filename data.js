@@ -13,31 +13,21 @@
  */
 
 const META = {
-  lastUpdated: "2026-09-09",
-  issueTitle: "决策与专注：稀缺的注意力，才是领导者的第一资源",
-  issueHook: "在信息过载的时代，领导者最稀缺的从来不是远见、资源或执行力，而是「注意力」本身——以及把注意力用在刀刃上的「判断」。",
+  lastUpdated: "2026-09-10",
+  issueTitle: "影响力与说服：让别人接受你的决定，也是一门手艺",
+  issueHook: "决定做对只是上半场；让同事、老板、客户真正接受并行动起来，才是下半场。影响力不是天赋，而是可以拆解、练习、复用的手艺。",
   newIds: [
-    "focused-leader",
-    "big-lie-strategic-planning",
-    "emotional-agility",
-    "power-of-small-wins",
-    "good-data-wont-guarantee-decisions",
-    "why-good-leaders-make-bad-decisions",
-    "how-to-manage-avoid-mental-fatigue",
-    "leaders-framework-decision-making",
-    "3-questions-pressure-test-priorities",
-    "big-decision-kahneman",
-    "hidden-traps",
-    "disciplined-pursuit-of-less",
-    "decision-driven-org",
-    "manage-your-energy-not-your-time"
+    "harnessing-science-of-persuasion",
+    "necessary-art-of-persuasion",
+    "whats-your-influencing-style",
+    "surprising-power-of-questions"
   ],
   monthlySummary: {
     month: "2026-09",
     title: "2026 年 9 月 · HBR 策展月度回顾",
-    hook: "本月我们都在谈：如何在不确定的环境里守住注意力、做出有判断的选择。",
-    topIds: ["focused-leader", "big-decision-kahneman", "hidden-traps", "disciplined-pursuit-of-less", "manage-your-energy-not-your-time"],
-    totalAdded: 14
+    hook: "本月我们都在谈：如何在喧嚣里守住注意力、做出有判断的选择，并让别人真正接受你的决定。",
+    topIds: ["harnessing-science-of-persuasion", "necessary-art-of-persuasion", "surprising-power-of-questions", "big-decision-kahneman", "focused-leader"],
+    totalAdded: 18
   }
 };
 
@@ -1250,6 +1240,58 @@ const ARTICLES = [
     tags: ["精力管理", "专注力", "恢复"],
     summary: "Schwartz 与 McCarthy 一针见血：时间是个刚性上限，再怎么管也不会多出一秒；真正能被拓展的是「精力」。人的精力像肌肉，有消耗也有恢复，而多数组织只逼人消耗、不给恢复。",
     detail: "他们把精力分成四个维度——体能、情绪、心智、精神，并指出可持续的高绩效来自「张弛有度」的节奏：高度专注后主动恢复，而非一路硬撑到耗尽。具体到个人，可以是规律作息、短暂抽离、把最难的判断放在精力峰值时段。这篇文章和系列二里「精神疲劳」那篇互为表里：决策质量的上限，是你的精力曲线——别在你最累的时候做最重要的决定。"
+  },
+  {
+    id: "harnessing-science-of-persuasion",
+    added: "2026-09",
+    url: "https://hbr.org/2001/10/harnessing-the-science-of-persuasion",
+    zhTitle: "用科学武装说服力",
+    enTitle: "Harnessing the Science of Persuasion",
+    author: "Robert B. Cialdini",
+    year: 2001,
+    category: "沟通",
+    tags: ["说服力", "影响力", "心理学"],
+    summary: "Cialdini 把说服从「口才」变成「科学」，提炼出六条被心理学反复验证的原则：互惠、承诺一致、社会认同、喜好、权威、稀缺。真正的高手不是话多，而是懂得在恰当的时刻触发对的原则。",
+    detail: "文章强调，这六条原则之所以有效，是因为它们契合人类千百年来的心理捷径——我们习惯用「别人也这么做」「权威说的」「数量有限」来快速做决定。领导者若理解这些机制，就能在不施压、不操纵的前提下，让正确的方案更容易被接受。它和「决策与专注」是同一枚硬币的两面：前者讲如何做对决定，这篇讲如何让你的决定被别人接受。"
+  },
+  {
+    id: "necessary-art-of-persuasion",
+    added: "2026-09",
+    url: "https://hbr.org/1998/05/the-necessary-art-of-persuasion",
+    zhTitle: "说服的必要艺术",
+    enTitle: "The Necessary Art of Persuasion",
+    author: "Jay A. Conger",
+    year: 1998,
+    category: "领导力",
+    tags: ["领导力", "说服", "沟通"],
+    summary: "Conger 指出，在权威失灵、团队化的组织里，领导者越来越不能靠职位压人，只能靠说服。他把说服拆成四个要素：建立信任的信誉、用证据而非立场说话、找到共同的出发点、用情感勾勒愿景。",
+    detail: "文章特别反对「说服 = 推销观点」的误区，主张说服是一场双向的探询与共创：先理解对方的世界观，再用对方在乎的证据去连接。这与「好领导也会做坏决定」呼应——你不仅要自己判断对，还要让团队理解为什么对。说服力不是天赋，而是一套可被刻意练习的流程。"
+  },
+  {
+    id: "whats-your-influencing-style",
+    added: "2026-09",
+    url: "https://hbr.org/2012/01/whats-your-influencing-style",
+    zhTitle: "你是什么影响风格？",
+    enTitle: "What's Your Influencing Style?",
+    author: "Chris Musselwhite & Tammie Plouffe",
+    year: 2012,
+    category: "自我管理",
+    tags: ["影响风格", "自我觉察", "沟通"],
+    summary: "Musselwhite 与 Plouffe 把人的影响风格分成四类：逻辑派（靠数据与推理）、愿景派（靠意义与画面感）、关系派（靠信任与联结）、执行派（靠行动与结果）。多数人只熟练用一种，遇到不同对象就失效。",
+    detail: "文章给出一张自检清单，帮你看清自己的默认风格，并有意识地切换到对方能接住的方式：对数据驱动的人讲逻辑，对意义驱动的人讲愿景。它和「情绪敏捷」「小胜的力量」同属「自我觉察」一脉——影响力的前提，是先看清自己习惯用什么方式，再学会用对方的语言说话。"
+  },
+  {
+    id: "surprising-power-of-questions",
+    added: "2026-09",
+    url: "https://hbr.org/2018/05/the-surprising-power-of-questions",
+    zhTitle: "提问的惊人力量",
+    enTitle: "The Surprising Power of Questions",
+    author: "Alison Wood Brooks & Leslie K. John",
+    year: 2018,
+    category: "沟通",
+    tags: ["提问", "倾听", "影响力"],
+    summary: "Brooks 与 John 用研究证明：提问比陈述更有力量——好问题能建立信任、获取信息、让对方更愿意配合。但多数人不是不问，而是问得太少、问得太封闭、或在谈判中暴露底牌。",
+    detail: "文章区分了「诊断式提问」（了解对方需求）、「共生式提问」（建立关系）、「对抗式提问」（施压），并给出实操：多问开放式问题、让问题自然接龙、避免在谈判早期亮出自己的底线。它把「说服力」从「我说服你」翻转成「我让你自己想明白」——最高级的影响力，往往是一个好问题。"
   },
 ];
 
