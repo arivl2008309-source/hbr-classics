@@ -13,21 +13,22 @@
  */
 
 const META = {
-  lastUpdated: "2026-09-10",
-  issueTitle: "影响力与说服：让别人接受你的决定，也是一门手艺",
-  issueHook: "决定做对只是上半场；让同事、老板、客户真正接受并行动起来，才是下半场。影响力不是天赋，而是可以拆解、练习、复用的手艺。",
+  lastUpdated: "2026-09-11",
+  issueTitle: "影响力与说服（系列二）：把话说进心里",
+  issueHook: "上一系列讲了说服的原则与提问的力量；这一组聚焦「表达」本身——同样的观点，有人一说就被听进去，有人说完却像没说。影响力的一半在内容，另一半在连接、叙事与方式。",
   newIds: [
-    "harnessing-science-of-persuasion",
-    "necessary-art-of-persuasion",
-    "whats-your-influencing-style",
-    "surprising-power-of-questions"
+    "storytelling-moves-people",
+    "connect-then-lead",
+    "killer-presentation",
+    "power-of-talk",
+    "pitch-brilliant-idea"
   ],
   monthlySummary: {
     month: "2026-09",
     title: "2026 年 9 月 · HBR 策展月度回顾",
     hook: "本月我们都在谈：如何在喧嚣里守住注意力、做出有判断的选择，并让别人真正接受你的决定。",
-    topIds: ["harnessing-science-of-persuasion", "necessary-art-of-persuasion", "surprising-power-of-questions", "big-decision-kahneman", "focused-leader"],
-    totalAdded: 18
+    topIds: ["storytelling-moves-people", "connect-then-lead", "killer-presentation", "power-of-talk", "pitch-brilliant-idea", "harnessing-science-of-persuasion", "necessary-art-of-persuasion", "surprising-power-of-questions", "whats-your-influencing-style", "big-decision-kahneman"],
+    totalAdded: 23
   }
 };
 
@@ -1292,6 +1293,71 @@ const ARTICLES = [
     tags: ["提问", "倾听", "影响力"],
     summary: "Brooks 与 John 用研究证明：提问比陈述更有力量——好问题能建立信任、获取信息、让对方更愿意配合。但多数人不是不问，而是问得太少、问得太封闭、或在谈判中暴露底牌。",
     detail: "文章区分了「诊断式提问」（了解对方需求）、「共生式提问」（建立关系）、「对抗式提问」（施压），并给出实操：多问开放式问题、让问题自然接龙、避免在谈判早期亮出自己的底线。它把「说服力」从「我说服你」翻转成「我让你自己想明白」——最高级的影响力，往往是一个好问题。"
+  },
+  {
+    id: "storytelling-moves-people",
+    added: "2026-09",
+    url: "https://hbr.org/2003/06/storytelling-that-moves-people",
+    zhTitle: "会讲故事，才有影响力",
+    enTitle: "Storytelling That Moves People",
+    author: "Robert McKee & Bronwyn Fryer",
+    year: 2003,
+    category: "沟通",
+    tags: ["叙事", "说服力", "沟通"],
+    summary: "McKee 指出，管理者要做说服时，本能地堆事实、数据和权威引述，却往往打动不了人。真正能撬动听众的，是故事——一个带着具体情境、人物挣扎与转折的叙事，比任何图表都更让人记住并行动。",
+    detail: "文章借好莱坞编剧大师 McKee 之口，区分了「数据式说服」与「故事式说服」：前者让人点头，后者让人感同身受并改变行为。好故事有清晰的冲突、可信的角色、以及价值观层面的抉择，让听众自己在情节里推导出你想传递的结论。对领导者的启示是：把要讲的道理，先变成一个人会遇到的困境，再让故事替你把话说完。"
+  },
+  {
+    id: "connect-then-lead",
+    added: "2026-09",
+    url: "https://hbr.org/2013/07/connect-then-lead",
+    zhTitle: "先连接，再领导",
+    enTitle: "Connect, Then Lead",
+    author: "Amy J.C. Cuddy, Matthew Kohut & John Neffinger",
+    year: 2013,
+    category: "沟通",
+    tags: ["影响力", "温度", "领导力"],
+    summary: "三位作者用研究拆穿一个迷思：想有影响力，是先证明自己强，还是先让人感到你暖？答案是先「连接」——在展现能力之前先传递温度，别人更愿意听你、信你、跟你走。",
+    detail: "文章把人际信号分成两类：能力（competence）与温度（warmth）。常识误以为该先亮出实力建立权威，但心理学显示，人在判断你值不值得信任时，先感受的是温度。若一上来只显强势，反而触发防备。对领导者的建议是：用共情、倾听与真实先建立连接，再展现专业；先让人愿意靠近，影响力才有落点。这与说服力是同一件事的两面——内容再对，关系没接通也传不进去。"
+  },
+  {
+    id: "killer-presentation",
+    added: "2026-09",
+    url: "https://hbr.org/2013/06/how-to-give-a-killer-presentation",
+    zhTitle: "如何做一场让人记住的演讲",
+    enTitle: "How to Give a Killer Presentation",
+    author: "Chris Anderson",
+    year: 2013,
+    category: "沟通",
+    tags: ["演讲", "说服力", "表达"],
+    summary: "TED 掌门人 Anderson 把「好演讲」的密码归结为一件事：用一条主线，带着观众完成一次思想的旅行。他反对堆满要点的幻灯片，主张用故事、例证和悬念，让一个观点真正住进听众脑子里。",
+    detail: "文章基于大量 TED 演讲的成败经验，提炼出演讲设计的核心原则：先找到那一个你非讲不可的洞见，再围绕它组织材料；用具体的例子代替抽象口号；通过「铺设—转折—升华」的节奏制造张力。Anderson 还提醒，紧张不是敌人——把它当作能量。对职场人的价值在于：汇报、路演、提案本质上都是演讲，能把复杂的事讲得让人想行动，本身就是一种影响力。"
+  },
+  {
+    id: "power-of-talk",
+    added: "2026-09",
+    url: "https://hbr.org/1995/09/the-power-of-talk-who-gets-heard-and-why",
+    zhTitle: "为什么有人说话总被听见，有人却总被忽略",
+    enTitle: "The Power of Talk: Who Gets Heard and Why",
+    author: "Deborah Tannen",
+    year: 1995,
+    category: "沟通",
+    tags: ["沟通", "职场对话", "影响力"],
+    summary: "语言学家 Tannen 揭示了一个扎心的事实：同样一句话，由谁、用什么方式说出来，被听见的分量完全不同。沟通风格里的微妙差异，常常决定了一个人的观点是否被认真对待。",
+    detail: "文章聚焦职场对话中的「风格错配」：有人习惯间接委婉、有人开门见山；有人用提问推进、有人用断言主导。这些差异往往与性别、成长背景相关，却常被误读为「能力」或「态度」问题——比如女性用试探语气提建议，容易被当成不自信。Tannen 呼吁领导者识别这种「谁被听见」的不对称，既避免误判人才，也能主动调整自己的表达，让该被听见的声音真正被听见。这是影响力里最容易被忽略的一层：表达的方式，决定观点能否落地。"
+  },
+  {
+    id: "pitch-brilliant-idea",
+    added: "2026-09",
+    url: "https://hbr.org/2003/09/how-to-pitch-a-brilliant-idea",
+    zhTitle: "好点子，也要会「卖」",
+    enTitle: "How to Pitch a Brilliant Idea",
+    author: "Kimberly D. Elsbach",
+    year: 2003,
+    category: "沟通",
+    tags: ["提案", "说服力", "创新"],
+    summary: "Elsbach 的研究点出残酷现实：想出好点子不难，难的是把它「卖」给毫不相干的人。她发现，人们评估一个新想法时，往往先判断提出者的「身份」是否可信，其次才看内容。",
+    detail: "文章基于对创意被接纳过程的观察，指出提案失败常不在点子本身，而在呈现方式：听众会潜意识追问「这人懂行吗」「这想法和我们有关吗」。破解之道是预先铺垫可信度——用对方熟悉的框架切入、展示你对该领域的理解、并把新想法与对方已有的目标连接起来。对想推动变革的人而言，说服力不只来自逻辑，更来自「你先把对话的门槛降到对方愿意听」的功夫。"
   },
 ];
 
